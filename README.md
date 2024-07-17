@@ -1,4 +1,4 @@
-Example of calling API endpoint within the SwiftUI
+Example POC of calling API endpoint within the SwiftUI
 
 ---
 
