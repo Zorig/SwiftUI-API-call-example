@@ -1,0 +1,61 @@
+# Xcode
+#
+.DS_Store
+build/
+DerivedData/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata/
+*.xccheckout
+*.moved-aside
+*.xcuserstate
+
+# Swift Package Manager
+#
+.build/
+# Packages.lock
+# Packages/
+
+# CocoaPods
+#
+# Uncomment the next line if you don't want to check in the Pods directory
+# Pods/
+# Uncomment the next line if you don't want to check in source code from pods.
+# Source from pods should be included in your Podfile.lock and the Pods directory.
+# Check in Podfile.lock to make sure others use the same versions of pods.
+# /Pods/
+
+# Carthage
+#
+Carthage/Build/
+
+# Fastlane
+#
+# It is recommended to not store the screenshots in the git repo.
+# Instead, use fastlane to re-generate the screenshots whenever they are needed.
+# For more information about the recommended setup visit:
+# https://docs.fastlane.tools/best-practices/source-control/
+*/fastlane/report.xml
+*/fastlane/Preview.html
+*/fastlane/screenshots/**/*.png
+*/fastlane/test_output
+
+# Code Injection
+#
+# Ensure that this file is included in projects that use Code Injection:
+# https://github.com/johnno1962/injectionforxcode
+*.injectionforxcode
+
+# Various settings
+xcuserdata/
+*.xcuserstate
+*.lock
+
+*.p12
+*.mobileprovision
